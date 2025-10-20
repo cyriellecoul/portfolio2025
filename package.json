@@ -1,0 +1,12 @@
+{
+  "name": "mon-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site statique avec index.html et styles.css",
+  "scripts": {
+    "start": "serve -s . -l 5002"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
