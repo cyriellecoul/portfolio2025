@@ -11,39 +11,39 @@ https://templatemo.com/tm-578-first-portfolio
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #535da1;
-  --secondary-color:              #14B789;
-  --section-bg-color:             #f9f9f9;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #e9eaeb;
-  --featured-border-color:        #727aab;
+  --white-color: #ffffff;
+  --primary-color: #535da1;
+  --secondary-color: #14B789;
+  --section-bg-color: #f9f9f9;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #e9eaeb;
+  --featured-border-color: #727aab;
 
-  --body-font-family:             'DM Sans', sans-serif;
+  --body-font-family: 'DM Sans', sans-serif;
 
-  --h1-font-size:                 62px;
-  --h2-font-size:                 48px;
-  --h3-font-size:                 36px;
-  --h4-font-size:                 32px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  18px;
-  --menu-font-size:               12px;
-  --copyright-font-size:          14px;
+  --h1-font-size: 62px;
+  --h2-font-size: 48px;
+  --h3-font-size: 36px;
+  --h4-font-size: 32px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 18px;
+  --menu-font-size: 12px;
+  --copyright-font-size: 14px;
 
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
 
-  --font-weight-normal:           400;
-  --font-weight-medium:           500;
-  --font-weight-bold:             700;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
 }
 
 body {
-    background: var(--white-color);
-    font-family: var(--body-font-family); 
+  background: var(--white-color);
+  font-family: var(--body-font-family);
 }
 
 
@@ -109,7 +109,7 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -148,6 +148,12 @@ strong {
   background: var(--secondary-color);
   border-radius: var(--border-radius-small);
   padding: 10px 30px;
+}
+
+.section-contact {
+  border-radius: var(--border-radius-small);
+  padding: 10px 30px;
+  border: 1px solid var(--secondary-color);
 }
 
 
@@ -207,12 +213,15 @@ strong {
 }
 
 @-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);
+  to {
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spinner {
-  to {transform: rotate(360deg);}
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 
@@ -273,7 +282,7 @@ strong {
 
 .custom-btn:hover {
   background: var(--primary-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
   color: var(--white-color);
 }
 
@@ -290,11 +299,11 @@ strong {
 }
 
 .custom-link {
-	background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .custom-link:hover {
-	background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 
@@ -387,12 +396,12 @@ strong {
   height: 2px;
 }
 
-.navbar-nav .nav-link.active::after, 
+.navbar-nav .nav-link.active::after,
 .navbar-nav .nav-link:hover::after {
   background: var(--secondary-color);
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
@@ -475,7 +484,7 @@ strong {
   padding-bottom: 330px;
 }
 
-@media  screen and (min-width: 991px) {
+@media screen and (min-width: 991px) {
   .hero {
     height: 60vh;
   }
@@ -484,18 +493,18 @@ strong {
 .hero-title,
 .hero h2 {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
   border-radius: var(--border-radius-large);
   display: inline-block;
   padding: 8px 24px;
 }
 
 .hero-title {
-	font-size: 44px;
+  font-size: 44px;
 }
 
 .hero h2 {
-	font-size: 38px;
+  font-size: 38px;
 }
 
 .hero-text {
@@ -609,7 +618,7 @@ strong {
 -----------------------------------------*/
 
 .clients-item-height {
-	height: 120px;
+  height: 120px;
 }
 
 .clients-image {
@@ -618,7 +627,7 @@ strong {
   margin: auto;
   transition: all ease 0.2s;
   border-radius: 50%;
-max-height: 100px;
+  max-height: 100px;
 }
 
 .clients-image:hover {
@@ -655,7 +664,7 @@ max-height: 100px;
 
 .services-thumb:hover {
   border: 2px solid var(--secondary-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
 .services-thumb:hover .services-icon-wrap {
@@ -765,9 +774,9 @@ max-height: 100px;
 }
 
 .projects-subtitle-link {
-font-weight: bold;
-font-size:larger;
-color:#14B789;
+  font-weight: bold;
+  font-size: larger;
+  color: #14B789;
 }
 
 
@@ -941,7 +950,7 @@ color:#14B789;
 .footer-menu-link {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-medium);
-  font-size: var(--copyright-font-size);
+  font-size: var(--h6-font-size);
   font-weight: var(--font-weight-medium);
   display: inline-block;
   vertical-align: top;
@@ -949,13 +958,16 @@ color:#14B789;
   margin-right: 10px;
   margin-bottom: 10px;
   padding: 6px 14px;
-  min-width: 70px;
+  width: 270px;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
 }
 
 .footer-menu-link:hover {
-  background: var(--secondary-color);
+  background: var(--white-color);
   border-color: transparent;
-  color: var(--white-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 
@@ -1012,11 +1024,11 @@ color:#14B789;
   .hero-image {
     min-width: 650px;
   }
-  
+
   .hero-title,
-	.hero h2 {
-	  font-size: var(--h2-font-size);
-	}
+  .hero h2 {
+    font-size: var(--h2-font-size);
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1199,4 +1211,3 @@ color:#14B789;
     min-width: inherit;
   }
 }
-
