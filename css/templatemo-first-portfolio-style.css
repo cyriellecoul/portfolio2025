@@ -759,6 +759,18 @@ max-height: 100px;
   margin-bottom: 20px;
 }
 
+.projects-subtitle {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.projects-subtitle-link {
+font-weight: bold;
+font-size:larger;
+color:#14B789;
+}
+
+
 .projects-tag {
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
