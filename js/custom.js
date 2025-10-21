@@ -25,8 +25,22 @@
       $('body,html').animate({
       scrollTop: totalScroll
       }, 300);
+      
   }
 });
+
+  const dialog = document.getElementById('demo-modal');
+  const openBtn = document.getElementById('open-modal');
+  const closeBtn = document.getElementById('close-modal');
+
+  openBtn.addEventListener('click', function(event) {
+    event.preventDefault();
+    dialog.showModal();
+  });
+
+  closeBtn.addEventListener('click', function() {
+    dialog.close();
+  });
     
   })(window.jQuery);
 
