@@ -617,6 +617,8 @@ strong {
   max-width: 100px;
   margin: auto;
   transition: all ease 0.2s;
+  border-radius: 50%;
+max-height: 100px;
 }
 
 .clients-image:hover {
