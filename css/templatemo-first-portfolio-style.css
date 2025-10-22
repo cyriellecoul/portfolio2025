@@ -765,21 +765,32 @@ strong {
   transition: all ease 0.5s;
 }
 
+.projects-title_big {
+  margin-bottom: 15px;
+}
+
 .projects-title {
   margin-bottom: 20px;
 }
 
+.projects-title_info {
+  font-style: italic;
+  font-size: small;
+}
+
 .projects-subtitle {
   margin-bottom: 30px;
-  font-style: italic;
 }
 
-.projects-subtitle-link {
+.projects-subtitle_info {
+  font-style: italic;
+  font-size: small;
+}
+
+.projects-subtitle_link {
   font-weight: bold;
-  font-size: larger;
   color: #14B789;
 }
-
 
 .projects-tag {
   font-size: var(--menu-font-size);
@@ -787,6 +798,10 @@ strong {
   color: var(--secondary-color);
   text-transform: uppercase;
   margin-bottom: 5px;
+}
+
+.projects-tag_link {
+  text-decoration: underline;
 }
 
 
