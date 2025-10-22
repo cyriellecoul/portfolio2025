@@ -153,7 +153,6 @@ strong {
 .section-contact {
   border-radius: var(--border-radius-small);
   padding: 10px 30px;
-  border: 1px solid var(--secondary-color);
 }
 
 
@@ -767,6 +766,17 @@ strong {
 
 .projects-title_big {
   margin-bottom: 15px;
+}
+.project-conducteur {
+color: #3985c6;
+}
+
+.project-parent {
+color: #439a3b;
+}
+
+.project-portal {
+color: #f36536;
 }
 
 .projects-title {
