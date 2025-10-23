@@ -959,7 +959,7 @@ strong {
 .footer-menu-item {
   list-style: none;
   display: inline-block;
-  margin-right: 3px;
+  margin: 3px 3px 0px 10px;
 }
 
 .footer-menu-link {
@@ -1160,7 +1160,6 @@ strong {
 
   .contact-info {
     border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
-    padding: 40px 30px;
   }
 
   .contact-info-border-start {
