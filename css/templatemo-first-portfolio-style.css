@@ -151,6 +151,9 @@ strong {
 .section-contact {
   border-radius: var(--border-radius-small);
   padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*---------------------------------------
@@ -961,6 +964,8 @@ strong {
 .footer-menu-item {
   list-style: none;
   display: inline-block;
+  text-align: center;
+  align-items: center;
   margin: 3px 3px 0px 10px;
 }
 
