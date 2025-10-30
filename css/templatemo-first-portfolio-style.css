@@ -171,6 +171,8 @@ strong {
 .charlie-picture {
   margin-top: -90px;
   margin-bottom: -190px;
+  position: relative;
+  z-index: -1000;
 }
 
 /*---------------------------------------
