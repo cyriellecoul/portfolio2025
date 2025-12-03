@@ -6,10 +6,6 @@
     $(".preloader").fadeOut(1000); // set duration in brackets
   });
 
-  const age = calculateAgeInDays("1988-02-20");
-
-  document.getElementById("myAge").innerHTML = `${age}j`;
-
   // CUSTOM LINK
   $(".custom-link").click(function () {
     var el = $(this).attr("href");
@@ -32,6 +28,13 @@
       );
     }
   });
+
+  ///////////////////
+  // CALCULATE MY AGE
+  ///////////////////
+  const age = calculateAgeInDays("1988-02-20");
+
+  document.getElementById("myAge").innerHTML = `${age}j`;
 
   const dialog = document.getElementById("demo-modal");
   const openBtn = document.getElementById("open-modal");
@@ -62,4 +65,35 @@
     // returns the age in days (rounded using Math.floor)
     return Math.floor(days);
   }
+
+  ////////////////////////
+  // MAKE CARDS SCROLLING
+  ///////////////////////
+
+  const cards = document.querySelectorAll(".rating-card");
+  const wrapper = document.querySelector(".rating-cards-wrapper");
+  const cardsPerView = 2;
+  let index = 0;
+
+  function showCards() {
+    cards.forEach((card, i) => {
+      card.style.display =
+        i >= index && i < index + cardsPerView ? "block" : "none";
+    });
+
+    wrapper.style.opacity = 1;
+  }
+
+  function nextCards() {
+    wrapper.style.opacity = 0;
+
+    setTimeout(() => {
+      index += cardsPerView;
+      if (index >= cards.length) index = 0;
+      showCards();
+    }, 300);
+  }
+
+  showCards();
+  setInterval(nextCards, 4000);
 })(window.jQuery);
