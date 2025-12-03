@@ -485,7 +485,6 @@ strong {
   position: relative;
   overflow: hidden;
   padding-top: 330px;
-  padding-bottom: 330px;
 }
 
 @media screen and (min-width: 991px) {
@@ -814,10 +813,10 @@ strong {
   text-decoration: underline;
 }
 
-.asterix{
-font-style: italic;
-font-weight: 100;
-text-align: right;
+.asterix {
+  font-style: italic;
+  font-weight: 100;
+  text-align: right;
 }
 
 /*---------------------------------------
@@ -1130,7 +1129,6 @@ text-align: right;
 
   .hero {
     padding-top: 200px;
-    padding-bottom: 400px;
     background-color: #f36536;
   }
 
