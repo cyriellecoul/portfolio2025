@@ -490,7 +490,7 @@ strong {
 
 @media screen and (min-width: 991px) {
   .hero {
-    height: 60vh;
+    height: 100vh;
   }
 }
 
@@ -534,7 +534,7 @@ strong {
 .hero-image {
   position: absolute;
   z-index: 22;
-  top: -13%;
+
   left: 5%;
   width: 89%;
   min-width: 150px;
@@ -1131,6 +1131,7 @@ text-align: right;
   .hero {
     padding-top: 200px;
     padding-bottom: 400px;
+    background-color: #f36536;
   }
 
   .hero-text {
@@ -1230,6 +1231,6 @@ text-align: right;
   }
 
   .hero-image {
-    min-width: inherit;
+    display: none;
   }
 }

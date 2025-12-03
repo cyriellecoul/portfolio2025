@@ -1,31 +1,29 @@
 #profileP {
-    background-color: aliceblue;
+ background-color: var(--white-color);
 }
 
 /* rating */
 
-
 .card {
-    background-color: #e9ecef;
-	width: 350px;
-	border: none;
-	box-shadow: 5px 6px 6px 2px #e9ecef;
-	border-radius: 12px;
-    margin-bottom: 200px;
+  background-color: var(--white-color);
+  width: 90px;
+  width: 350px;
+  border: none;
+  box-shadow: 5px 6px 6px 2px var(--white-color);
+  border-radius: 12px;
+  margin-bottom: 490px;
 }
 
-.rate{
-	border-bottom-right-radius: 12px;
-	border-bottom-left-radius: 12px;
+.rate {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
-
 
 .rating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
-
 
 .rating-card {
   border-radius: 12px;
@@ -35,11 +33,16 @@
   font-size: 1.2rem;
 }
 
-
 .avatar-image-chat {
-    border-radius: var(--border-radius-large);
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    margin-right: 20px;
+  border-radius: var(--border-radius-large);
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.rating-cards-wrapper {
+  overflow: hidden;
+  height: auto;
+  transition: opacity 0.2s ease;
 }
