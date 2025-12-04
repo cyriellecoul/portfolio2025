@@ -95,5 +95,5 @@
   }
 
   showCards();
-  setInterval(nextCards, 4000);
+  setInterval(nextCards, 90000);
 })(window.jQuery);

@@ -1,5 +1,5 @@
 #profileP {
- background-color: var(--white-color);
+  background-color: var(--white-color);
 }
 
 /* rating */
@@ -21,7 +21,7 @@
 
 .rating {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -33,7 +33,7 @@
   font-size: 1.2rem;
 }
 
-.avatar-image-chat {
+.avatar-image-perso {
   border-radius: var(--border-radius-large);
   width: 90px;
   height: 90px;
@@ -45,4 +45,19 @@
   overflow: hidden;
   height: auto;
   transition: opacity 0.2s ease;
+}
+
+.rating-name {
+  font-weight: bold;
+  font-size: var(--h5-font-size);
+  line-height: normal;
+}
+
+.rating-details {
+  color: var(--p-color);
+  font-size: var(--copyright-font-size);
+}
+.rating-comments {
+  color: var(--p-color);
+  font-size: var(--copyright-font-size);
 }
