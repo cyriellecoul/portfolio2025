@@ -72,7 +72,8 @@
 
   const cards = document.querySelectorAll(".rating-card");
   const wrapper = document.querySelector(".rating-cards-wrapper");
-  const cardsPerView = 2;
+  const smallWindow = window.innerWidth < 768;
+  const cardsPerView = smallWindow ? 1 : 2;
   let index = 0;
 
   function showCards() {
@@ -95,5 +96,7 @@
   }
 
   showCards();
-  setInterval(nextCards, 4000);
+  if (!smallWindow) {
+    setInterval(nextCards, 13000);
+  }
 })(window.jQuery);

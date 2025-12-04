@@ -484,7 +484,7 @@ strong {
   background: var(--secondary-color);
   position: relative;
   overflow: hidden;
-  padding-top: 330px;
+  padding-top: 150px;
 }
 
 @media screen and (min-width: 991px) {
@@ -533,9 +533,8 @@ strong {
 .hero-image {
   position: absolute;
   z-index: 22;
-
-  left: 5%;
-  width: 89%;
+  left: 15%;
+  width: 80%;
   min-width: 150px;
 }
 
@@ -1034,8 +1033,8 @@ strong {
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .hero {
-    padding-top: 380px;
-    padding-bottom: 380px;
+    padding-top: 210px;
+    padding-bottom: 320px;
   }
 
   .hero-image-wrap {
@@ -1044,7 +1043,7 @@ strong {
   }
 
   .hero-image {
-    min-width: 450px;
+    min-width: 350px;
   }
 
   .hero-title,
@@ -1128,8 +1127,7 @@ strong {
   }
 
   .hero {
-    padding-top: 200px;
-    background-color: #f36536;
+    padding-top: 150px;
   }
 
   .hero-text {
