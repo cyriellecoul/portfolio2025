@@ -8,10 +8,11 @@
   background-color: var(--white-color);
   width: 90px;
   width: 350px;
+  margin-top: 120px;
   border: none;
   box-shadow: 5px 6px 6px 2px var(--white-color);
   border-radius: 12px;
-  margin-bottom: 490px;
+  z-index: 22;
 }
 
 .rate {

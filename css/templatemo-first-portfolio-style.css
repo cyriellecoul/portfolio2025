@@ -484,7 +484,7 @@ strong {
   background: var(--secondary-color);
   position: relative;
   overflow: hidden;
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 @media screen and (min-width: 991px) {
@@ -535,8 +535,8 @@ strong {
   z-index: 22;
 
   left: 15%;
-  width: 80%;
-  min-width: 120px;
+  width: 60%;
+  min-width: 100px;
 }
 
 .hero svg {
@@ -1034,8 +1034,8 @@ strong {
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .hero {
-    padding-top: 380px;
-    padding-bottom: 380px;
+    padding-top: 210px;
+    padding-bottom: 320px;
   }
 
   .hero-image-wrap {
@@ -1044,7 +1044,7 @@ strong {
   }
 
   .hero-image {
-    min-width: 450px;
+    min-width: 350px;
   }
 
   .hero-title,
@@ -1128,7 +1128,7 @@ strong {
   }
 
   .hero {
-    padding-top: 200px;
+    padding-top: 150px;
   }
 
   .hero-text {
