@@ -1,0 +1,79 @@
+{
+    "tools": [
+        {
+            "name": "Atlassian - Bitbucket, Jira, Confluence",
+            "level": "expert",
+            "icon": "images/tools/atlassian.svg"
+        },
+        {
+            "name": "AngularJS",
+            "level": "expert",
+            "icon": "images/tools/angularjs.png"
+        },
+        {
+            "name": "HTML - CSS - JavaScript - Bootstrap",
+            "level": "expert",
+            "icon": "images/tools/html.png"
+        },
+        {
+            "name": "GitHub - Git",
+            "level": "expert",
+            "icon": "images/tools/git_logo.png"
+        },
+        {
+            "name": "SourceTree",
+            "level": "expert",
+            "icon": "images/tools/sourcetree.svg"
+        },
+        {
+            "name": "Java - Android Studio",
+            "level": "regular",
+            "icon": "images/tools/android_java_logo.png"
+        },
+        {
+            "name": "Objective-C - iOS",
+            "level": "regular",
+            "icon": "images/tools/ios_obj.jpg"
+        },
+        {
+            "name": "Docker",
+            "level": "regular",
+            "icon": "images/tools/docker.png"
+        },
+        {
+            "name": "Ngrok",
+            "level": "regular",
+            "icon": "images/tools/ngrok.png"
+        },
+        {
+            "name": "Intégration d'API - FrontEnd",
+            "level": "regular",
+            "icon": "images/tools/API.jpeg"
+        },
+          {
+            "name": "MongoDB",
+            "level": "regular",
+            "icon": "images/tools/MongoDB.svg"
+        },
+        {
+            "name": "React Native",
+            "level": "notion",
+            "icon": "images/tools/react.svg"
+        },
+        {
+            "name": "Creation d'API - BackEnd - JavaScript",
+            "level": "notion",
+            "icon": "images/tools/API.jpeg"
+        },
+         {
+            "name": "Figma",
+            "level": "notion",
+            "icon": "images/tools/figma.svg"
+        },
+        {
+            "name": "SQL",
+            "level": "notion",
+            "icon": "images/tools/sql.svg"
+        }
+    ]
+}
