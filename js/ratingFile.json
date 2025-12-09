@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Edith",
+        "image": "images/edith.png",
+        "connection": "Voisine de Cyrielle",
+        "alt": "Photo de Edith, ma voisine",
+        "rate": 5,
+        "authenticity": "Témoignage authentique",
+        "comment": "Je mets 5 étoiles (j'en mettrais plus si je pouvais). Toujours là quand on a besoin d'aide, toujours un sourire et toujours de très bonne compagnie.<br>Si j'avais une équipe de travail, je la voudrais dedans (en plus elle est toujours partante pour s'occuper du comité social) !"
+    },
+    {
+        "name": "Bruno",
+        "image": "images/papounet.png",
+        "connection": "Papa de Cyrielle",
+        "alt": "Papa de Cyrielle",
+        "rate": 5,
+        "authenticity": "Témoignage <strong>non authentique</strong>",
+        "comment": "Sur mes 3 enfants, c'est ma préférée !"
+    },
+    {
+        "name": "Malika",
+        "image": "images/mali.png",
+        "connection": "Blonde de Cyrielle",
+        "authenticity": "Témoignage authentique",
+        "alt": "Photo de Malika, ma blonde",
+        "rate": 5,
+        "comment": "Son humour est définitivement plus décadent qu'une tarte au sucre du St-Hubert (et la tarte est dure à battre). <br>Très patiente."
+    },
+    {
+        "name": "Lucie",
+        "image": "images/lucie.jpeg",
+        "connection": "Soeur de Cyrielle",
+        "alt": "Photo de Lucie, ma soeur",
+        "rate": 4,
+        "authenticity": "Témoignage <strong>non authentique</strong>",
+        "comment": "J'enlève 1 étoile parce que quand elle était petite, elle était très tanante ! <br>Maintenant, elle est super !"
+    },
+    {
+        "name": "Huguette",
+        "image": "images/huggg.png",
+        "connection": "Chat de Cyrielle",
+        "alt": "Photo du chat de Cyrielle",
+        "rate": 3,
+        "authenticity": "Témoignage authentique",
+        "comment": "Je donne trois étoiles, car elle n’est pas toujours disponible la nuit pour jouer avec moi. Mais elle prend vraiment soin de moi et me nourrit avec des croquettes de qualité. <br>Je me sens aimé et bien entouré."
+    }
+]
