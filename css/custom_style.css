@@ -119,3 +119,52 @@
     flex: 0 0 100%;
   }
 }
+
+.tool-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.tool-card.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+.tool-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+.stars {
+  display: flex;
+  gap: 2px;
+  margin-top: 0.2rem;
+}
+.stars i {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.badge-expert {
+  background-color: #28a745;
+} /* vert */
+.badge-regular {
+  background-color: #007bff;
+} /* bleu */
+.badge-notion {
+  background-color: #ffc107;
+} /* jaune */
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
