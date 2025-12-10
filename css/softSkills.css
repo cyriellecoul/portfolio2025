@@ -1,0 +1,83 @@
+/* ====== BASE CARD (minimaliste) ====== */
+.skill-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.4rem 1.6rem;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    transition: 0.25s ease;
+    opacity: 0;
+    transform: translateY(8px);
+}
+
+/* Apparition douce */
+.skill-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover minimal */
+.skill-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.07);
+    transform: translateY(-3px);
+}
+
+/* ====== PRIORITÉ (Qualité + Collaboration) ====== */
+/* Une bordure colorée : pro + subtil */
+.skill-card.priority-1 {
+    border-left: 5px solid #535da1;
+}
+.skill-card.priority-2 {
+    border-left: 5px solid #14b789;
+}
+
+/* ====== ICONES ====== */
+.skill-icon {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+    color: #535da1;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+/* Animation légère au hover */
+.skill-card:hover .skill-icon {
+    transform: translateY(-4px) scale(1.08);
+    opacity: 0.9;
+}
+
+/* Couleur des icônes selon priorité */
+.skill-card.priority-1 .skill-icon {
+    color: #535da1;
+}
+.skill-card.priority-2 .skill-icon {
+    color: #14b789;
+}
+
+/* ====== TITRE ====== */
+.skill-category-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+/* ====== LISTE ====== */
+.skill-list {
+    margin-top: 0.4rem;
+    padding-left: 1.2rem;
+}
+
+.skill-list li {
+    margin-bottom: 0.25rem;
+    color: #333;
+    opacity: 0.85;
+}
+
+/* ====== ANIMATION ICÔNE AU LOAD (subtil pulse) ====== */
+@keyframes softPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.06); }
+}
+
+.skill-card.show .skill-icon {
+    animation: softPulse 1.3s ease forwards;
+}

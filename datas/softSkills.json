@@ -1,0 +1,39 @@
+{
+  "skillCategories": [
+    {
+      "category": "Qualité & Tests",
+      "icon": "bi-bug",
+      "priority": 1,
+      "skills": [
+        "QA Testing",
+        "Code Review",
+        "Analyse de bugs",
+        "Tests fonctionnels",
+        "Documentation"
+      ]
+    },
+    {
+      "category": "Collaboration",
+      "icon": "bi-people-fill",
+      "priority": 2,
+      "skills": [
+        "Travail d'équipe",
+        "Communication bienveillante",
+        "Pair programming",
+        "Collaboration inter-équipes (UI, BackEnd, Direction...)",
+        "Esprit critique"
+      ]
+    },
+    {
+      "category": "Autonomie",
+      "icon": "bi-person-check",
+      "priority": 1,
+      "skills": [
+        "Gestion des priorités",
+        "Résolution de problèmes",
+        "Prise d'initiative",
+        "Gestion du temps"
+      ]
+    }
+  ]
+}

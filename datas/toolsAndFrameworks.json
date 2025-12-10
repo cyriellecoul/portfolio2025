@@ -16,6 +16,11 @@
             "icon": "images/tools/html.png"
         },
         {
+            "name": "Java - Android Studio",
+            "level": "expert",
+            "icon": "images/tools/android_java_logo.png"
+        },
+        {
             "name": "GitHub - Git",
             "level": "expert",
             "icon": "images/tools/git_logo.png"
@@ -24,11 +29,6 @@
             "name": "SourceTree",
             "level": "expert",
             "icon": "images/tools/sourcetree.svg"
-        },
-        {
-            "name": "Java - Android Studio",
-            "level": "regular",
-            "icon": "images/tools/android_java_logo.png"
         },
         {
             "name": "Objective-C - iOS",
@@ -50,7 +50,7 @@
             "level": "regular",
             "icon": "images/tools/API.jpeg"
         },
-          {
+        {
             "name": "MongoDB",
             "level": "regular",
             "icon": "images/tools/MongoDB.svg"
@@ -65,7 +65,7 @@
             "level": "notion",
             "icon": "images/tools/API.jpeg"
         },
-         {
+        {
             "name": "Figma",
             "level": "notion",
             "icon": "images/tools/figma.svg"
