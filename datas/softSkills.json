@@ -27,7 +27,7 @@
     {
       "category": "Autonomie",
       "icon": "bi-person-check",
-      "priority": 1,
+      "priority": 3,
       "skills": [
         "Gestion des priorités",
         "Résolution de problèmes",

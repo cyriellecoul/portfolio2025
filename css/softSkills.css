@@ -30,6 +30,9 @@
 .skill-card.priority-2 {
     border-left: 5px solid #14b789;
 }
+.skill-card.priority-3 {
+    border-left: 5px solid #f6a091;
+}
 
 /* ====== ICONES ====== */
 .skill-icon {
@@ -51,6 +54,9 @@
 }
 .skill-card.priority-2 .skill-icon {
     color: #14b789;
+}
+.skill-card.priority-3 .skill-icon {
+    color: #f6a091;;
 }
 
 /* ====== TITRE ====== */
