@@ -1,4 +1,4 @@
-  (function ($) {
+(function ($) {
   "use strict";
 
   ///////////////////
@@ -7,7 +7,7 @@
   const track = document.getElementById("track");
   const arrowLeft = document.getElementById("arrowLeft");
   const arrowRight = document.getElementById("arrowRight");
-  let cardsPerView = 4;
+  let cardsPerView = 1;
   let index = 0;
   let cards = [];
 
@@ -18,7 +18,6 @@
     .then((response) => response.json())
     .then((data) => {
       cards = data;
-      renderCards();
       updateCardsPerView();
       updateArrows();
     })
@@ -49,17 +48,19 @@
   }
 
   /**
-   * Renders all cards dynamically from the `cards` array (coming from JSON file) into the carousel track.
-   * Each card includes image, name, connection, rating stars, authenticity and comment.
-   * The stars are generated dynamically using `generateStars()`.
+   * Render a specific number of cards from the cards array into the track container.
+   *
+   * @param {number} cardsPerView - Number of cards to display on screen.
+   * @param {number} [startIndex=0] - Starting index in the cards array (0-based).
    *
    * @returns {void} This function does not return anything. It directly updates the DOM.
    *
    */
-  function renderCards() {
-    track.innerHTML = ""; // vider le conteneur avant de remplir
+  function renderCards(cardsPerView, startIndex = 0) {
+    track.innerHTML = ""; // Empty container to be able to fill in
+    const visibleCards = cards.slice(startIndex, startIndex + cardsPerView);
 
-    cards.forEach((item) => {
+    visibleCards.forEach((item) => {
       const cardDiv = document.createElement("div");
       cardDiv.classList.add(
         "card",
@@ -91,62 +92,48 @@
         ${item.comment}
       </div>
     `;
-
+      updateArrows();
       track.appendChild(cardDiv);
     });
   }
 
   /**
    * Updates the number of cards visible in the carousel based on the current window width.
-   * Adjusts the `cardsPerView` variable and calls `showCards()` to update the display.
+   * Adjusts the `cardsPerView` variable and calls `renderCards()` to update the display.
    *
    * @returns {void} Updates the global `cardsPerView` and refreshes visible cards in the DOM.
    */
   function updateCardsPerView() {
     const w = window.innerWidth;
     if (w < 576) cardsPerView = 1;
-    else if (w < 768) cardsPerView = 2;
-    else if (w < 992) cardsPerView = 3;
-    else cardsPerView = 4;
+    else if (w < 992) cardsPerView = 2;
+    else cardsPerView = 3;
 
-    showCards();
-  }
-
-  /**
-   * Updates the carousel display to show the correct set of cards based on the current index
-   * and number of cards per view, and updates the visibility of the left/right arrows.
-   *
-   * @returns {void} Updates the DOM directly: transforms the carousel track and toggles arrow display.
-   */
-  function showCards() {
-    const offset = -(index * (100 / cardsPerView));
-    track.style.transform = `translateX(${offset}%)`;
-    updateArrows();
+    renderCards(cardsPerView);
   }
 
   // Navigation
+  arrowLeft.addEventListener("click", () => {
+    index -= cardsPerView;
+    if (index < 0) index = 0;
+    renderCards(cardsPerView, index);
+  });
+
   arrowRight.addEventListener("click", () => {
     index += cardsPerView;
     if (index >= cards.length) index = cards.length - cardsPerView;
     if (index < 0) index = 0;
-    showCards();
+    renderCards(cardsPerView, index);
   });
 
-  arrowLeft.addEventListener("click", () => {
-    index -= cardsPerView;
-    if (index < 0) index = 0;
-    showCards();
-  });
-
-  // Navigation of arrows
   function updateArrows() {
     arrowLeft.style.display = index <= 0 ? "none" : "block";
     arrowRight.style.display =
       index + cardsPerView >= cards.length ? "none" : "block";
   }
 
+  // Window resizing
   window.addEventListener("resize", () => {
     updateCardsPerView();
   });
-
-  })(window.jQuery);
+})(window.jQuery);
