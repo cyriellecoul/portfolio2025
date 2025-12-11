@@ -4,12 +4,13 @@ const expertList = document.getElementById("expert-tools");
 const regularList = document.getElementById("regular-tools");
 const notionList = document.getElementById("notion-tools");
 
-function generateStars(level) {
+
+function generateStars(stars) {
   let starsHTML = "";
-  const full = level === "expert" ? 5 : level === "regular" ? 3 : 1;
+
   for (let i = 0; i < 5; i++) {
     starsHTML += `<i class="bi ${
-      i < full ? "bi-star-fill" : "bi-star"
+      i < stars ? "bi-star-fill" : "bi-star"
     } text-warning"></i>`;
   }
   return starsHTML;
@@ -46,7 +47,7 @@ fetch("datas/toolsAndFrameworks.json")
 
       const starsDiv = document.createElement("div");
       starsDiv.classList.add("stars");
-      starsDiv.innerHTML = generateStars(tool.level);
+      starsDiv.innerHTML = generateStars(tool.stars);
       content.appendChild(starsDiv);
 
       const progress = document.createElement("div");
@@ -85,7 +86,7 @@ fetch("datas/toolsAndFrameworks.json")
           bar.style.width = width + "%";
           if (width >= parseInt(finalWidth)) clearInterval(interval);
         }, 15);
-      }, idx * 200);
+      }, idx * 100);
     });
   })
   .catch((err) => console.error(err));
