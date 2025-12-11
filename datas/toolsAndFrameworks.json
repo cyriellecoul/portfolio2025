@@ -3,76 +3,97 @@
         {
             "name": "Atlassian - Bitbucket, Jira, Confluence",
             "level": "expert",
+            "stars": 5,
             "icon": "images/tools/atlassian.svg"
         },
         {
             "name": "AngularJS",
             "level": "expert",
+            "stars": 5,
             "icon": "images/tools/angularjs.png"
         },
         {
             "name": "HTML - CSS - JavaScript - Bootstrap",
             "level": "expert",
+            "stars": 5,
             "icon": "images/tools/html.png"
         },
         {
             "name": "Java - Android Studio",
             "level": "expert",
+            "stars": 4,
             "icon": "images/tools/android_java_logo.png"
         },
         {
             "name": "GitHub - Git",
             "level": "expert",
+            "stars": 5,
             "icon": "images/tools/git_logo.png"
         },
         {
             "name": "SourceTree",
             "level": "expert",
+            "stars": 5,
             "icon": "images/tools/sourcetree.svg"
         },
         {
             "name": "Objective-C - iOS",
             "level": "regular",
+            "stars": 3,
             "icon": "images/tools/ios_obj.jpg"
-        },
-        {
-            "name": "Docker",
-            "level": "regular",
-            "icon": "images/tools/docker.png"
-        },
-        {
-            "name": "Ngrok",
-            "level": "regular",
-            "icon": "images/tools/ngrok.png"
         },
         {
             "name": "Intégration d'API - FrontEnd",
             "level": "regular",
+            "stars": 4,
             "icon": "images/tools/API.jpeg"
         },
         {
             "name": "MongoDB",
             "level": "regular",
+            "stars": 4,
             "icon": "images/tools/MongoDB.svg"
+        },
+        {
+            "name": "Postman",
+            "level": "regular",
+            "stars": 3,
+            "icon": "images/tools/postman.svg"
+        },
+        {
+            "name": "Docker",
+            "level": "regular",
+            "stars": 3,
+            "icon": "images/tools/docker.png"
+        },
+        {
+            "name": "Ngrok",
+            "level": "regular",
+            "stars": 4,
+            "icon": "images/tools/ngrok.png"
         },
         {
             "name": "React Native",
             "level": "notion",
+            "stars": 2,
             "icon": "images/tools/react.svg"
         },
         {
             "name": "Creation d'API - BackEnd - JavaScript",
             "level": "notion",
+            "stars": 2,
             "icon": "images/tools/API.jpeg"
         },
         {
             "name": "Figma",
             "level": "notion",
+            "stars": 2,
             "icon": "images/tools/figma.svg"
         },
         {
             "name": "SQL",
             "level": "notion",
+            "stars": 1,
             "icon": "images/tools/sql.svg"
         }
     ]
