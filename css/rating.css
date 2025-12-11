@@ -7,7 +7,7 @@
   margin-top: 120px;
   border-radius: 12px;
   z-index: 22;
-  flex: 0 0 calc(100% / 3); /* by default 3 cards visible on large screen */
+
   margin-right: 10px;
 }
 
@@ -64,20 +64,16 @@
   align-items: center;
   overflow: hidden;
   position: relative;
-  margin-top: 20px;
   z-index: 13;
 }
 
 .carousel {
   flex: 1;
-  overflow: hidden;
-  margin-right: 30px;
-  padding-right: 90px;
+  overflow: visible; /* pour éviter de couper */
 }
 
 .track {
   display: flex;
-  transition: transform 0.3s ease;
 }
 
 .arrow {
@@ -87,26 +83,19 @@
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 5px;
-  z-index: 10;
+  z-index: 30;
+  position: absolute;
 }
 
 .arrow:hover {
   background: rgba(13, 98, 249, 0.8);
 }
 
-/* Display number of cards based on screen size */
-@media (max-width: 992px) {
-  .card {
-    flex: 0 0 calc(100% / 3);
-  }
+#arrowLeft {
+  left: 10px;
 }
-@media (max-width: 768px) {
-  .card {
-    flex: 0 0 calc(100% / 2);
-  }
-}
-@media (max-width: 576px) {
-  .card {
-    flex: 0 0 100%;
-  }
-}
+
+#arrowRight {
+  right: 10px;/* Display number of cards based on screen size */
+
+}  

@@ -481,17 +481,12 @@ strong {
   HERO              
 -----------------------------------------*/
 .hero {
-  background: var(--secondary-color);
+ background: var(--secondary-color);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
 }
 
-@media screen and (min-width: 991px) {
-  .hero {
-    height: 100vh;
-  }
-}
 
 .hero-title,
 .hero h2 {
@@ -1033,8 +1028,9 @@ strong {
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .hero {
-    padding-top: 210px;
-    padding-bottom: 320px;
+    padding-top: 170px;
+    padding-bottom: 220px;
+  
   }
 
   .hero-image-wrap {
@@ -1124,10 +1120,6 @@ strong {
     color: var(--p-color);
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-
-  .hero {
-    padding-top: 150px;
   }
 
   .hero-text {
