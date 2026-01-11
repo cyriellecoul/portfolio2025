@@ -154,6 +154,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--secondary-color);
 }
 
 /*---------------------------------------
@@ -818,10 +819,6 @@ strong {
 -----------------------------------------*/
 .contact {
   background: var(--section-bg-color);
-}
-
-.contact-info {
-  height: 100%;
 }
 
 .contact-info-border-start {
