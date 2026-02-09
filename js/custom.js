@@ -6,7 +6,10 @@
     $(".preloader").fadeOut(1000); // set duration in brackets
   });
 
-  // CUSTOM LINK
+  // Redirect if not local
+  redirectIfNotLocal();
+
+  // CUSTOM LINKN
   $(".custom-link").click(function () {
     var el = $(this).attr("href");
     var elWrapped = $(el);
@@ -24,9 +27,18 @@
         {
           scrollTop: totalScroll,
         },
-        300
+        300,
       );
     }
   });
-
 })(window.jQuery);
+
+function redirectIfNotLocal() {
+  const hostname = window.location.hostname;
+
+  const isLocal = hostname === "localhost" || hostname === "127.0.0.1";
+
+  if (!isLocal) {
+    window.location.replace("https://cyriellecoul.github.io/portfolio2025/");
+  }
+}
