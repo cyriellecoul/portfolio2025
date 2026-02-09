@@ -38,7 +38,7 @@ function redirectIfNotLocal() {
 
   const isLocal = hostname === "localhost" || hostname === "127.0.0.1";
 
-  if (!isLocal) {
+  if (!isLocal || hostname === "cyriellecoul.github.io") {
     window.location.replace("https://cyriellecoul.github.io/portfolio2025/");
   }
 }
