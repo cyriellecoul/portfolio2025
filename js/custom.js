@@ -6,9 +6,6 @@
     $(".preloader").fadeOut(1000); // set duration in brackets
   });
 
-  // Redirect if not local
-  redirectIfNotLocal();
-
   // CUSTOM LINKN
   $(".custom-link").click(function () {
     var el = $(this).attr("href");
@@ -32,13 +29,3 @@
     }
   });
 })(window.jQuery);
-
-function redirectIfNotLocal() {
-  const hostname = window.location.hostname;
-
-  const isLocal = hostname === "localhost" || hostname === "127.0.0.1";
-
-  if (!isLocal || hostname === "cyriellecoul.github.io") {
-    window.location.replace("https://cyriellecoul.github.io/portfolio2025/");
-  }
-}
