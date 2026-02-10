@@ -10,25 +10,25 @@
             "name": "AngularJS",
             "level": "expert",
             "stars": 5,
-            "icon": "images/tools/angularjs.png"
+            "icon": "images/tools/angularjs.svg"
         },
         {
             "name": "HTML - CSS - JavaScript - Bootstrap",
             "level": "expert",
             "stars": 5,
-            "icon": "images/tools/html.png"
+            "icon": "images/tools/html.webp"
         },
         {
             "name": "Java - Android Studio",
             "level": "expert",
             "stars": 4,
-            "icon": "images/tools/android_java_logo.png"
+            "icon": "images/tools/android_java_logo.webp"
         },
         {
             "name": "GitHub - Git",
             "level": "expert",
             "stars": 5,
-            "icon": "images/tools/git_logo.png"
+            "icon": "images/tools/git_logo.webp"
         },
         {
             "name": "SourceTree",
@@ -40,13 +40,13 @@
             "name": "Objective-C - iOS",
             "level": "regular",
             "stars": 3,
-            "icon": "images/tools/ios_obj.jpg"
+            "icon": "images/tools/ios_obj.webp"
         },
         {
             "name": "Intégration d'API - FrontEnd",
             "level": "regular",
             "stars": 4,
-            "icon": "images/tools/API.jpeg"
+            "icon": "images/tools/API.webp"
         },
         {
             "name": "MongoDB",
@@ -64,13 +64,13 @@
             "name": "Docker",
             "level": "regular",
             "stars": 3,
-            "icon": "images/tools/docker.png"
+            "icon": "images/tools/docker.webp"
         },
         {
             "name": "Ngrok",
             "level": "regular",
             "stars": 4,
-            "icon": "images/tools/ngrok.png"
+            "icon": "images/tools/ngrok.webp"
         },
         {
             "name": "React Native",
@@ -82,7 +82,7 @@
             "name": "Creation d'API - BackEnd - JavaScript",
             "level": "notion",
             "stars": 2,
-            "icon": "images/tools/API.jpeg"
+            "icon": "images/tools/API.webp"
         },
         {
             "name": "Figma",

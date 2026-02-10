@@ -1,7 +1,7 @@
 [
     {
         "name": "Edith",
-        "image": "images/edith.png",
+        "image": "images/edith.webp",
         "connection": "Voisine de Cyrielle",
         "alt": "Photo de Edith, ma voisine",
         "rate": 5,
@@ -10,7 +10,7 @@
     },
     {
         "name": "Bruno",
-        "image": "images/papounet.png",
+        "image": "images/papounet.webp",
         "connection": "Papa de Cyrielle",
         "alt": "Photo de Bruno et Cyrielle",
         "rate": 5,
@@ -19,7 +19,7 @@
     },
     {
         "name": "Malika",
-        "image": "images/mali.png",
+        "image": "images/mali.webp",
         "connection": "Blonde de Cyrielle",
         "authenticity": "Témoignage authentique",
         "alt": "Photo de Malika, ma blonde",
@@ -28,7 +28,7 @@
     },
     {
         "name": "Lucie",
-        "image": "images/lucie.jpeg",
+        "image": "images/lucie.webp",
         "connection": "Soeur de Cyrielle",
         "alt": "Photo de Lucie, ma soeur",
         "rate": 4,
@@ -37,7 +37,7 @@
     },
     {
         "name": "Huguette",
-        "image": "images/huggg.png",
+        "image": "images/huggg.webp",
         "connection": "Chat de Cyrielle",
         "alt": "Photo du chat de Cyrielle",
         "rate": 3,

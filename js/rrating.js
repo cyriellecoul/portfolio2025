@@ -77,7 +77,7 @@
         <div class="col-4">
           <img src="${item.image}" class="avatar-image-perso img-fluid" alt="${
         item.alt
-      }">
+      }" oncontextmenu="return false;">
         </div>
         <div class="col-8">
           <div class="rating-name">${item.name}</div>

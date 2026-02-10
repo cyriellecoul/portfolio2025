@@ -26,6 +26,8 @@ fetch("datas/toolsAndFrameworks.json")
       const img = document.createElement("img");
       img.src = tool.icon;
       img.alt = tool.name;
+      img.ariaLabel = `${tool.name} icon`;
+      img.oncontextmenu = (e) => e.preventDefault(); // Disable right-click on image
       img.classList.add("tool-icon");
       card.appendChild(img);
 
