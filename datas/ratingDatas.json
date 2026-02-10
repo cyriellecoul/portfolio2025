@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Edith",
         "image": "images/edith.webp",
         "connection": "Voisine de Cyrielle",
@@ -9,6 +10,7 @@
         "comment": "Je mets 5 étoiles (j'en mettrais plus si je pouvais). Toujours là quand on a besoin d'aide, toujours un sourire et toujours de très bonne compagnie.<br>Si j'avais une équipe de travail, je la voudrais dedans (en plus elle est toujours partante pour s'occuper du comité social) !"
     },
     {
+        "id": 2,
         "name": "Bruno",
         "image": "images/papounet.webp",
         "connection": "Papa de Cyrielle",
@@ -18,6 +20,7 @@
         "comment": "Sur mes 3 enfants, c'est ma préférée !"
     },
     {
+        "id": 3,
         "name": "Malika",
         "image": "images/mali.webp",
         "connection": "Blonde de Cyrielle",
@@ -27,6 +30,7 @@
         "comment": "Son humour est définitivement plus décadent qu'une tarte au sucre du St-Hubert (et la tarte est dure à battre). <br>Très patiente."
     },
     {
+        "id": 4,
         "name": "Lucie",
         "image": "images/lucie.webp",
         "connection": "Soeur de Cyrielle",
@@ -36,6 +40,7 @@
         "comment": "J'enlève 1 étoile parce que quand elle était petite, elle était très tanante ! <br>Maintenant, elle est super !"
     },
     {
+        "id": 5,
         "name": "Huguette",
         "image": "images/huggg.webp",
         "connection": "Chat de Cyrielle",

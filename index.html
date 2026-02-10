@@ -69,13 +69,13 @@
                         <a class="nav-link click-scroll" href="#section_1">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">Outils et Logiciels</a>
+                        <a class="nav-link click-scroll" href="#section_2">Projets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">Soft skills</a>
+                        <a class="nav-link click-scroll" href="#section_3">Outils et Logiciels</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_4">Projets</a>
+                        <a class="nav-link click-scroll" href="#section_4">Soft skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link click-scroll" href="#section_5">À propos</a>
@@ -99,12 +99,10 @@
     </nav>
 
     <main>
-
         <section class="hero justify-content-center" id="section_1">
             <div class="container">
                 <div class="row">
                     <div class="col-8">
-
                         <div class="hero-text">
                             <div class="hero-title-wrap align-items-center mb-3">
                                 <h1 class="hero-title ms-3 mb-0">Bonjour !</h1>
@@ -118,17 +116,6 @@
                             alt="Illustration représentant une personne qui ajoute une application sur mon téléphone géant"
                             oncontextmenu="return false;">
                     </div>
-
-                    <!-- RATING CARDS -->
-                    <div class="carousel-container">
-                        <button class="arrow" id="arrowLeft"
-                            aria-label="Faire circuler le carousel à gauche">&#10094;</button>
-                        <div class="carousel">
-                            <div class="track" id="track"></div>
-                        </div>
-                        <button class="arrow" id="arrowRight"
-                            aria-label="Faire circuler le carousel à droite">&#10095;</button>
-                    </div>
                 </div>
 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -138,39 +125,7 @@
                 </svg>
         </section>
 
-
-        <section class="services section-padding" id="section_2">
-            <div class="container">
-                <div class="col-lg-12 col-12">
-                    <h3 class="text-center mb-5">Outils et Logiciels</h3>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <h5>Maîtrisés</h5>
-                        <div id="expert-tools"></div>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Expérience opérationnelle</h5>
-                        <div id="regular-tools"></div>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Connaissances de base</h5>
-                        <div id="notion-tools"></div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-        <section class="services section-padding" id="section_3">
-            <div class="container my-5">
-                <div class="col-lg-12 col-12">
-                    <h3 class="text-center mb-5">Soft skills</h3>
-                </div>
-                <div id="skills-wrapper" class="row gy-4"></div>
-            </div>
-        </section>
-
-        <section class="projects section-padding" id="section_4">
+   <section class="projects section-padding" id="section_2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-12 ms-auto">
@@ -324,6 +279,40 @@
                 </div>
             </div>
         </section>
+
+
+
+        <section class="services section-padding" id="section_3">
+            <div class="container">
+                <div class="col-lg-12 col-12">
+                    <h3 class="text-center mb-5">Outils et Logiciels</h3>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <h5>Maîtrisés</h5>
+                        <div id="expert-tools"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Expérience opérationnelle</h5>
+                        <div id="regular-tools"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Connaissances de base</h5>
+                        <div id="notion-tools"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="services section-padding" id="section_4">
+            <div class="container my-5">
+                <div class="col-lg-12 col-12">
+                    <h3 class="text-center mb-5">Soft skills</h3>
+                </div>
+                <div id="skills-wrapper" class="row gy-4"></div>
+            </div>
+        </section>
+
         <section class="about section-padding" id="section_5">
             <div class="container">
                 <div class="row">
@@ -457,42 +446,58 @@
         <section class="contact section-padding" id="section_6">
             <div class="container my-5">
                 <div class="section-contact">
-                    <!-- Image -->
-                    <div class="col-md-3">
-                        <div class="h-100 d-flex justify-content-center align-items-center">
-                            <img src="images/contact.webp" class="avatar-image img-fluid"
-                                alt="Image d'une main avec un papier affichant un texte 'Contact'">
+
+
+                    <!-- Row 1 : Title -->
+                    <div class="row mb-4">
+                        <div class="col text-center">
+                            <h2 class="text-white">Contactez-moi</h2>
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <div class="row h-100">
-                            <!-- Title -->
-                            <div class="col-12 text-center mb-3">
-                                <h2 class="text-white">Contactez-moi</h2>
+
+                    <div class="row mb-4">
+                        <!-- Image -->
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <img src="images/contact.webp" class="avatar-image img-fluid"
+                                alt="Image d'une main avec un papier affichant un texte 'Contact'"
+                                oncontextmenu="return false;">
+                        </div>
+                        <!-- Col 1 - LinkedIn -->
+
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium"
+                                data-theme="light" data-type="VERTICAL" data-vanity="cyrielle-c" data-version="v1">
                             </div>
-                            <!-- Col 1 - LinkedIn -->
-                            <div class="col-md-7 d-flex align-items-center justify-content-center">
-                                <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium"
-                                    data-theme="light" data-type="VERTICAL" data-vanity="cyrielle-c" data-version="v1">
+                        </div>
+
+                        <!-- Col 2 - Contact infos -->
+                        <div class="col-md-4 d-flex justify-content-center">
+                            <ul class="footer-menu">
+                                <li class="footer-menu-item"><a data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="Téléphone : +1-514-442-2470" href="tel: +1-514-442-2470"
+                                        class="footer-menu-link"><i class="bi bi-telephone-forward-fill"></i></a>
+                                </li>
+                                <li class="footer-menu-item"><a data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="Courriel : cyriellecoul@gmail.com" href="mailto:cyriellecoul@gmail.com"
+                                        class="footer-menu-link"><i class="bi bi-envelope-open-fill"></i></a></li>
+                                <li class="footer-menu-item"><a data-bs-toggle="tooltip" data-bs-placement="top"
+                                        title="CV" href="./CV_Cyrielle.pdf" class="footer-menu-link"><i
+                                            class="bi bi-file-earmark-person"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Row 1 : Title -->
+                    <div class="row">
+                        <div class="col text-center">
+                            <!-- RATING CARDS -->
+                            <div class="carousel-container">
+                                <button class="arrow" id="arrowLeft"
+                                    aria-label="Faire circuler le carousel à gauche">&#10094;</button>
+                                <div class="carousel">
+                                    <div class="track" id="track"></div>
                                 </div>
-
-
-                            </div>
-                            <!-- Col 2 - Contact infos -->
-                            <div class="col-md-5  d-flex align-items-center justify-content-center">
-                                <ul class="footer-menu">
-                                    <li class="footer-menu-item"><a data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Téléphone : +1-514-442-2470" href="tel: +1-514-442-2470"
-                                            class="footer-menu-link"><i class="bi bi-telephone-forward-fill"></i></a>
-                                    </li>
-                                    <li class="footer-menu-item"><a data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="Courriel : cyriellecoul@gmail.com"
-                                            href="mailto:cyriellecoul@gmail.com" class="footer-menu-link"><i
-                                                class="bi bi-envelope-open-fill"></i></a></li>
-                                    <li class="footer-menu-item"><a data-bs-toggle="tooltip" data-bs-placement="top"
-                                            title="CV" href="./CV_Cyrielle.pdf" class="footer-menu-link"><i
-                                                class="bi bi-file-earmark-person"></i></a></li>
-                                </ul>
+                                <button class="arrow" id="arrowRight"
+                                    aria-label="Faire circuler le carousel à droite">&#10095;</button>
                             </div>
                         </div>
                     </div>

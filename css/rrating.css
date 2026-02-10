@@ -4,10 +4,9 @@
   background-color: var(--white-color);
   width: 350px;
   min-width: 250px;
-  margin-top: 120px;
+  margin-top: 20px;
   border-radius: 12px;
   z-index: 22;
-
   margin-right: 10px;
 }
 

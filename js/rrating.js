@@ -62,10 +62,12 @@
 
     visibleCards.forEach((item) => {
       const cardDiv = document.createElement("div");
+      // Add margin class based on the card's position (first card gets more left margin)
+      const marginClass = item.id === 1 ? "ms-5" : "ms-3";
       cardDiv.classList.add(
         "card",
-        "mb-5",
-        "me-3",
+        "ms-3",
+        marginClass,
         "shadow",
         "p-3",
         "rating-card"
