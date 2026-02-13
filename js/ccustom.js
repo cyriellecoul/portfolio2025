@@ -28,4 +28,17 @@
       );
     }
   });
+  
+// Typed animations
+document.addEventListener("DOMContentLoaded", function () {
+  new Typed("#typed", {
+    strings: ["de sites Web", "d'applications mobiles", "de votre prochain projet numérique"],
+    typeSpeed: 60,
+    backSpeed: 40,
+    backDelay: 1500,
+    loop: true
+  });
+});
+
+  
 })(window.jQuery);
