@@ -6,7 +6,7 @@
 // Configuration
 const CONFIG = {
     // URL de redirection - À personnaliser
-    redirectUrl: 'https://cyriellecoul.github.io/devPorfolio/',
+    redirectUrl: 'https://cyriellecoul.github.io/devPortfolio/',
     
     // Délai avant redirection (en millisecondes)
     // Ajustez selon la durée souhaitée du loading
