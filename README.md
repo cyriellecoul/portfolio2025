@@ -1,2 +1,2 @@
-# portfolio2026
-Portfolio 2026 for rocking job using Bootstrap
+# portfolio2025
+Portfolio 2025 using Bootstrap, without AI.
